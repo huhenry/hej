@@ -23,3 +23,28 @@ go.work.sum
 
 # env file
 .env
+
+_vendor*
+bin/
+output/*
+/output
+testbin/
+testbin/*
+*.xml
+coverage*
+*.test
+
+.DS_Store
+
+# IDE - VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+test.json
+
+# vim swap files
+bin/*
